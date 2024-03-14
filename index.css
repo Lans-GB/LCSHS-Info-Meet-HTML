@@ -1,0 +1,194 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  min-height: 100vh;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/image/bg-1500w.png");
+}
+
+.home-navlink {
+  right: 29px;
+  width: 627px;
+  bottom: 150px;
+  height: 154px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-end;
+  text-align: center;
+  text-decoration: none;
+}
+.home-navlink1 {
+  top: 0px;
+  right: 29px;
+  width: 627px;
+  bottom: 0px;
+  height: 154px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-end;
+  text-align: center;
+  text-decoration: none;
+}
+.home-navlink2 {
+  top: 150px;
+  right: 29px;
+  width: 627px;
+  height: 154px;
+  position: absolute;
+  align-self: flex-end;
+  text-align: center;
+  text-decoration: none;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-slider {
+  top: 0px;
+  left: var(--dl-space-space-unit);
+  width: 860px;
+  bottom: 0px;
+  height: 534px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  align-self: flex-start;
+}
+.home-slider-slide {
+  display: flex;
+  align-items: center;
+  background-size: 100%;
+  background-image: url("public/image/1-900w.jpg");
+}
+.home-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url("public/image/2-900w.jpg");
+}
+.home-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url("public/image/3-900w.jpg");
+}
+.home-slider-pagination {
+  display: block;
+}
+.home-header {
+  top: 0px;
+  left: 52px;
+  width: 1475px;
+  display: flex;
+  position: absolute;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.home-image {
+  width: 70px;
+  height: 70px;
+}
+.home-icon-group {
+  display: flex;
+}
+.home-burger-menu {
+  display: none;
+}
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.home-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-image1 {
+  height: 2rem;
+}
+.home-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-text {
+  color: #c7a10f;
+}
+.home-navlink3 {
+  top: 49px;
+  right: 0px;
+  position: absolute;
+  text-decoration: none;
+}
+.home-footer {
+  left: 52px;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home-navlink4 {
+  width: 127px;
+  height: 59px;
+  text-decoration: none;
+}
