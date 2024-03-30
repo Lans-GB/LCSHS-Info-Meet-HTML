@@ -18,11 +18,16 @@
   bottom: 150px;
   height: 154px;
   margin: auto;
+  z-index: 100;
   position: absolute;
   align-self: flex-end;
+  box-shadow: 5px 5px 10px 0px #543c3c;
   text-align: center;
+  transition: 0.3s;
+  border-style: solid;
   text-decoration: none;
 }
+
 .home-navlink1 {
   top: 0px;
   right: 29px;
@@ -32,6 +37,7 @@
   margin: auto;
   position: absolute;
   align-self: flex-end;
+  box-shadow: 5px 5px 10px 0px #543c3c;
   text-align: center;
   text-decoration: none;
 }
@@ -42,6 +48,7 @@
   height: 154px;
   position: absolute;
   align-self: flex-end;
+  box-shadow: 5px 5px 10px 0px #543c3c;
   text-align: center;
   text-decoration: none;
 }
@@ -171,6 +178,7 @@
   top: 49px;
   right: 0px;
   position: absolute;
+  box-shadow: 5px 5px 10px 0px #543c3c;
   text-decoration: none;
 }
 .home-footer {
@@ -190,5 +198,6 @@
 .home-navlink4 {
   width: 127px;
   height: 59px;
+  box-shadow: 5px 5px 10px 0px #543c3c;
   text-decoration: none;
 }

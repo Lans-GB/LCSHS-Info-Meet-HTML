@@ -145,20 +145,21 @@
   border-bottom-right-radius: 30px;
 }
 .payment-image2 {
-  top: 111px;
-  left: 10px;
+  top: 0px;
+  left: 100px;
   width: 500px;
+  bottom: 0px;
   height: 500px;
+  margin: auto;
   position: absolute;
   object-fit: cover;
 }
 .payment-container4 {
   top: 0px;
-  left: 350px;
-  right: 0px;
-  width: 1463px;
+  right: -446px;
+  width: 1600px;
   bottom: 0px;
-  height: 673px;
+  height: 735px;
   margin: auto;
   position: absolute;
 }
