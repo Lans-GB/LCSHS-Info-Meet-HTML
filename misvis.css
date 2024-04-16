@@ -1,27 +1,14 @@
-.enrollment-container {
-  width: 150%;
+.misvis-container {
+  width: 100%;
   display: flex;
-  z-index: 100;
   overflow: auto;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
   min-height: 100vh;
-  transition: 0.3s;
-  align-items: flex-end;
-  border-color: var(--dl-color-gray-black);
-  border-style: outset;
-  border-width: 1px;
+  align-items: center;
   flex-direction: column;
   background-size: cover;
-  justify-content: flex-end;
-  background-image: url("public/image/bg-2300w.png");
+  background-image: url("public/image/bg-1500w.png");
 }
-
-.enrollment-navlink {
-  width: 127px;
-  height: 59px;
-  text-decoration: none;
-}
-.enrollment-footer {
+.misvis-footer {
   left: 52px;
   width: 100%;
   bottom: 0px;
@@ -35,13 +22,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.enrollment-navlink1 {
+.misvis-navlink {
   width: 127px;
   height: 59px;
   box-shadow: 5px 5px 10px 0px #543c3c;
   text-decoration: none;
 }
-.enrollment-header {
+.misvis-header {
   top: 0px;
   left: 52px;
   width: 100%;
@@ -55,22 +42,22 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: flex-start;
 }
-.enrollment-image {
+.misvis-image {
   width: 70px;
   height: 70px;
 }
-.enrollment-icon-group {
+.misvis-icon-group {
   display: flex;
 }
-.enrollment-burger-menu {
+.misvis-burger-menu {
   display: none;
 }
-.enrollment-icon {
+.misvis-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: flex;
 }
-.enrollment-mobile-menu {
+.misvis-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -83,92 +70,65 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.enrollment-nav {
+.misvis-nav {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.enrollment-container1 {
+.misvis-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.enrollment-image1 {
+.misvis-image1 {
   height: 2rem;
 }
-.enrollment-close-mobile-menu {
+.misvis-close-mobile-menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.enrollment-icon02 {
+.misvis-icon02 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.enrollment-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.enrollment-icon06 {
+.misvis-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.enrollment-icon08 {
+.misvis-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.misvis-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.enrollment-text1 {
+.misvis-text1 {
   color: #c7a10f;
 }
-.enrollment-navlink2 {
+.misvis-navlink1 {
   top: 49px;
   right: 0px;
   position: absolute;
   box-shadow: 5px 5px 10px 0px #543c3c;
   text-decoration: none;
 }
-.enrollment-container2 {
+.misvis-container2 {
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   bottom: 0px;
-  height: 793px;
+  height: 812px;
   margin: auto;
   display: flex;
   position: absolute;
+  align-self: stretch;
   align-items: center;
-}
-.enrollment-container3 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 1367px;
-  bottom: 0px;
-  height: 702px;
-  margin: auto;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
-  background-color: rgba(230, 219, 219, 0.55);
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-.enrollment-container4 {
-  top: NaNpx;
-  left: NaNpx;
-  width: 1362px;
-  height: 784px;
-  position: absolute;
-}
-.enrollment-container5 {
-  display: contents;
 }
